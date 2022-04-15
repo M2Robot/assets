@@ -1,10 +1,4 @@
-            @font-face {
-                font-family: main-font;
-                src: url("assets/fonts/main.ttf") format("opentype");
-            }
-            * {
-                font-family: "main-font";
-            }
+
             body {
                 background-color: #1f1f1f;
                 overflow-y: hidden;
