@@ -81,3 +81,7 @@
                         window.location.href = '/priv';
                       }
                     });
+
+
+                    // image drag
+                    $("img").attr("draggable", false);
