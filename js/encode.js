@@ -70,18 +70,5 @@
                      }   
                     });
 
-                    // Setup ctrl+Key
-                    window.addEventListener('keydown', function (event) {
-                      if (event.ctrlKey && event.code === 'KeyX') {
-                        window.location.href = '/priv';
-                      }
-                    });
-                    window.addEventListener('keydown', function (event) {
-                      if (event.code === 'KeyX') {
-                        window.location.href = '/priv';
-                      }
-                    });
-
-
                     // image drag
                     $("img").attr("draggable", false);
