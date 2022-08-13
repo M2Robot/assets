@@ -68,6 +68,3 @@
                  event.preventDefault();
                      }   
                     });
-
-                    // image drag
-                    $("img").attr("draggable", false);
